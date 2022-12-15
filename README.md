@@ -40,7 +40,7 @@ quiz.ButtonEvent += ButtonHandler;
 ```
 Il parametro "QuizzettinoButtonEventArgs" contiene nella proprietà "e.Button" il codice del pulsante premuto (vedi "ButtonCode") ed in "e.State" lo stato (true=premuto).
 
-**StringEvent***
+**StringEvent**
 
 Puntatore alla funzione di gestione degli eventi dei quali Quizzettino fornisce un valore di tipo stringa:
 ```
