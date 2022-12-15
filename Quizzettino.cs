@@ -153,6 +153,7 @@ namespace QuizLib
 
         private void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e)
         {
+            if (sender == null) return;
             SerialPort sp = (SerialPort)sender;
             string indata = sp.ReadLine().Replace("\r", "");
             // Comandi con risposta stringa
